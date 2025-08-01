@@ -75,22 +75,19 @@ Depois de baixado e extraído, pode iniciar o emulador com `duckstation-qt-x64-R
 
 ### Linux
 
-As únicas versões suportadas do DuckStation para Linux são o AppImage e o Flatpak na página de lançamentos. Se você instalou o DuckStation de outra fonte ou distribuição (por exemplo, EmuDeck), você deve entrar em contato com o responsável para suporte, nós não temos controle sobre isso.
+Seguem abaixo instruções para instalar as versões Flatpak e Appimage.
 
 #### AppImage
 
 Os AppImages requerem uma distribuição equivalente ao Ubuntu 22.04 ou mais recente para serem executados.
 
- - Acesse https://github.com/stenzek/duckstation/releases/tag/latest e baixe `duckstation-x64.AppImage`.
+ - Acesse https://github.com/Trixarian/duckstation-gpl/releases/tag/preview e baixe `duckstation-x64.AppImage`.
  - Execute `chmod a+x` no AppImage baixado -- após este passo, o AppImage pode ser executado como um executável típico.
 
 #### Flatpak
 
- - Acesse https://github.com/stenzek/duckstation/releases/tag/latest e baixe `duckstation-x64.flatpak`.
+ - Acesse https://github.com/Trixarian/duckstation-gpl/releases/tag/preview e baixe `duckstation-x64.flatpak`.
  - Execute `flatpak install ./duckstation-x64.flatpak`.
-
-ou, se você tiver o FlatHub configurado:
- - Execute `flatpak install org.duckstation.DuckStation`.
 
 Use `flatpak run org.duckstation.DuckStation` para iniciar, ou selecione `DuckStation` no lançador do seu ambiente de desktop. Siga o Assistente de Configuração para começar.
  
