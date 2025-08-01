@@ -62,7 +62,7 @@ Executáveis do DuckStation para Windows x64/ARM64, Linux x86_64 (nos formatos A
 ### Windows
 
 DuckStation **requer** Windows 10/11, especificamente a versão 1809 ou mais recente. Se você ainda estiver usando Windows 7/8/8.1, o DuckStation **não funcionará** no seu sistema operacional. Usar esses sistemas operacionais em 2023 deve ser considerado um risco de segurança, recomendaria atualizar para algo que receba suporte do fornecedor.
-Se você precisa usar um sistema operacional mais antigo, [v0.1-5624](https://github.com/stenzek/duckstation/releases/tag/v0.1-5624) é a última versão que funcionará. Mas não espere receber nenhuma assistência, essas compilações não são mais suportadas.
+Se você precisa usar um sistema operacional mais antigo, [v0.1-5624](https://github.com/Trixarian/duckstation-gpl/releases/tag/v0.1-5624) é a última versão que funcionará. Mas não espere receber nenhuma assistência, essas compilações não são mais suportadas.
 
 Para baixar:
  - Acesse https://github.com/Trixarian/duckstation-gpl/releases/tag/preview e baixe a compilação do Windows x64. Este é um arquivo ZIP contendo o executável pré-compilado.
