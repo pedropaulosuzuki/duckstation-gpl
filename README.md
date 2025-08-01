@@ -82,26 +82,19 @@ Once downloaded and extracted, you can launch the emulator with `duckstation-qt-
 
 ### Linux
 
-The only supported version of DuckStation for Linux are the AppImage and Flatpak in the releases page. If you installed DuckStation from another source or distribution (e.g. EmuDeck), you should contact the packager for support, we have no control over it.
-
-The release on [Flathub](https://flathub.org/apps/org.duckstation.DuckStation) is official, and synchronized with the latest rolling/stable release on GitHub.
-
-You **should not** install DuckStation from unofficial repositories such as the AUR, they are **known to be broken**.
+Below are instructions on how to install the AppImage and Flatpak versions.
 
 #### AppImage
 
 The AppImages require a distribution equivalent to Ubuntu 22.04 or newer to run.
 
- - Go to https://github.com/stenzek/duckstation/releases/tag/latest, and download `duckstation-x64.AppImage`.
+ - Go to https://github.com/Trixarian/duckstation-gpl/releases/tag/preview, and download `duckstation-x64.AppImage`.
  - Run `chmod a+x` on the downloaded AppImage -- following this step, the AppImage can be run like a typical executable.
 
 #### Flatpak
 
- - Go to https://github.com/stenzek/duckstation/releases/tag/latest, and download `duckstation-x64.flatpak`.
+ - Go to https://github.com/Trixarian/duckstation-gpl/releases/tag/preview, and download `duckstation-x64.flatpak`.
  - Run `flatpak install ./duckstation-x64.flatpak`.
-
-or, if you have FlatHub set up:
- - Run `flatpak install org.duckstation.DuckStation`.
 
 Use `flatpak run org.duckstation.DuckStation` to start, or select `DuckStation` in the launcher of your desktop environment. Follow the Setup Wizard to get started.
  
